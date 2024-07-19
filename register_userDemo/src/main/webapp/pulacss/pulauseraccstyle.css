@@ -1,0 +1,98 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: ghostwhite;
+    margin: 100px;
+}
+
+/* Center the content */
+.c-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Style the links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Add some spacing */
+br {
+    margin-top: 10px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Apply styles to form labels and input fields */
+label {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Highlight username */
+#c-username {
+    font-weight: bold;
+}
+
+/* Style for the update and delete buttons */
+.ab {
+    display: block;
+    background-color: #3CB371; /* Green color, you can change it */
+    color: white;
+    padding: 10px 20px;
+    margin-top: 17px;
+    margin-right: 10px;
+    margin-left: 150px;
+    float: left;
+    border : none;
+    border-radius: 15px 50px 30px;
+    cursor: pointer
+  }
+  .ab:hover{background-color:#2E8B57;}
+  
+  .cd {
+    display: block;
+    background-color: #DC143C; /* Red color, you can change it */
+    color: white;
+    padding: 10px 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 150px;
+    float: right;
+    border : none;
+    border-radius: 15px 50px 30px;
+    cursor: pointer;
+    
+  }
+  .cd:hover{background-color:#B22222 ;}

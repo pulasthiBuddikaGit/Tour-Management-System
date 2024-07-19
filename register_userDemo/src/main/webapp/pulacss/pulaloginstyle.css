@@ -1,0 +1,87 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, form, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the login form */
+#f1 {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the login form header */
+.h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the form labels and input fields */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the "Show" span */
+#show {
+    cursor: pointer;
+    color: #0073e6;
+    text-decoration: underline;
+}
+
+/* Style the "Remember me" checkbox */
+.rem1 {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Style the "Forgot" and "Login" buttons */
+.but1, .but2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.but2 {
+    background-color: #333;
+    margin-left: 10px;
+}
+
+/* Style the "Register" link */
+.reg1 {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #0073e6;
+}
+
+/* Style the "Register" link when hovered */
+.reg1 a:hover {
+    text-decoration: underline;
+}
